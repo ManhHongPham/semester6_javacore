@@ -1,0 +1,70 @@
+4.1 ------------------------mảng(array)--------------------------
+dùng để lưu trưc các thành phafn cùng kiểu dữ liệu, liên tiếp nhau trong bộ nhớ
+đc xác định bởi tên mảng vaf chỉ số(bắt đầu từ 0)
+
+khai báo
+-<data type>[] <name array>= new <data type>[<size>]; khai báo đc liên tiếp các mảng(tốc độ nahnh hơn)
+-<data type> <name array>[]= new <data type>[<size>];
+
+--có thể nhận giá trị trực tếp
+--một số phương thức
+	-length->lấy về độ dài của mảng
+	-clone()->tạo bản sao cho một mảng
+	
+	for(int value:arrInt2){ //mảng chỉ quan tâm đến giá trị forench
+	syso(value);
+	}
+	
+	geeksforgeeks.org
+bài tập sắp xếp nếu là số nguyên tố thì để lên đầu,k thì để đằng sau, xx theo 1 thứ tự nào đó
+--mảng đa chiều
+-<data type>[][] <name array>= new <data type>[<size><size>]; khai báo đc liên tiếp các mảng(tốc độ nahnh hơn)
+-<data type> <name array>[][]= new <data type>[<size><size>];
+
+**bài tập sắp xếp ko dùng mảng 1 chiều
+**** sắp xếp 1 dòng bất kì, tịnh tiến giá trị theo cột
+**** sắp xếp theo thứ tự abc của tên ví dụ anh, tuấn anh phải gần nhau
+*** cho một chuỗi kí tự bất kì và 1 chuỗi cần tìm, cần liệt kê ở mức nhiều nhất có thể
+(phân tách từ) tách-tìm-gộp
+
+--------------kế thừa-đa hình- trừu tượng- giao tiếp------------------------
+--------THỪA KẾ
+
+1) build lớp con(subclass) dựa trên lớp cha(superclass)-(lớp con dẫn xuất từ lớp cha)
+------kế thừa toàn bộ thuộc tính & phương thức từ lớp cha
+------khai báo use Extends
+
+
+- khởi tạo đối tượng
+	1- A a= new A();
+	2- A b= new B(); B là con của A
+	-> b có thể truy cập được mọi phương thức của a, nhưng kết quả hiển thị trên b
+	khi các phương thức ở A được cài đặt đề đè lại ở B(overriding)
+	-toString() được cài đặt ở A(person) và B(Student)
+	-khi một phương thức truy cập A nhưng không được cài đặt lại ở B,
+	thì kết quả đáp ứng vẫn được xác định ở A(trở lại 1)
+
+- đa hình
+cùng nhau lớp khai báo khác về khởi tạo(cùng 1 lời gọi ra kq khác nhau)->đa hình
+
+
+-trừu tượng(chi tồn tại các phương thức trừu tượng, bắt con cháu phải cài đặt lại)( đa hình+ che dấu mã)
+cùng 1 lời gọi ->2 result khác nhau, do khởi tạo
+
+
+-interface(giao tiếp-đa thừa kế)-bản thân là class, bao gồm các hằng
+eg:
+tạo ND(
+ndImpl1 và ndIml2-tùy môi trường can khai báo ), 
+CTT(CTTIml)
+tạo CTX, TPGD, GDS
+-test interface
+
+luồng vào ra tập tin
+process file text, nhị phân
+				input 		output
+byte stream		inputstream 	outputstream
+character		reader			writer  ->muốn biết là use cái nào dựa vào hậu tố
+
+
+

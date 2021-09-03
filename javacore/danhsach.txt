@@ -1,0 +1,13 @@
+		danh sach sinh vien:
+	|tên	|mã
+	|tên0	|mã	|mạnh	|
+	|tên1	|mã	|mạnh	|
+	|tên2	|mã	|mạnh	|
+	|tên3	|mã	|mạnh	|
+	|tên4	|mã	|mạnh	|
+	|tên5	|mã	|mạnh	|
+	|tên6	|mã	|mạnh	|
+	|tên7	|mã	|mạnh	|
+	|tên8	|mã	|mạnh	|
+	|tên9	|mã	|mạnh	|
+true
